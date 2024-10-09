@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-900 text-white p-6">
-      <div className="w-full max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg">
+      <div className="w-full max-w-md bg-gray-800 p-8 rounded-lg shadow-lg">
         {step === 1 && (
           <UserInfo
             nextStep={nextStep}

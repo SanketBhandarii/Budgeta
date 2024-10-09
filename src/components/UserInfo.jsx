@@ -18,7 +18,7 @@ const UserInfo = ({ nextStep, formData, updateFormData }) => {
           onChange={handleChange}
           placeholder="Enter your name"
           required
-          className="w-full p-3 outline-none bg-gray-700 text-white border border-gray-600 rounded-lg"
+          className="w-full p-3 outline-none bg-gray-700 text-white rounded-lg"
         />
       </div>
       <div className="mb-4">
@@ -30,7 +30,7 @@ const UserInfo = ({ nextStep, formData, updateFormData }) => {
           onChange={handleChange}
           placeholder="Enter your email"
           required
-          className="w-full p-3 outline-none bg-gray-700 text-white border border-gray-600 rounded-lg"
+          className="w-full p-3 outline-none bg-gray-700 text-white  rounded-lg"
         />
       </div>
       <div className="mb-6">
@@ -41,7 +41,7 @@ const UserInfo = ({ nextStep, formData, updateFormData }) => {
           name="preferredCurrency"
           value={formData.preferredCurrency}
           onChange={handleChange}
-          className="w-full p-3 outline-none bg-gray-700 text-white border border-gray-600 rounded-lg"
+          className="w-full p-3 outline-none bg-gray-700 text-white  rounded-lg"
         >
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
