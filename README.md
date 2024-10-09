@@ -1,8 +1,26 @@
-# React + Vite
+<h1 align="">Budgeta 💰</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="">
+  A simple and intuitive budgeting app to help you manage your finances effectively! 🌟
+</p>
 
-Currently, two official plugins are available:
+<h2>Features 🚀</h2>
+<ul>
+  <li>📊 Track monthly income and expenses</li>
+  <li>💵 Calculate total expenses and remaining budget</li>
+  <li>💾 Review and save budget summaries</li>
+  <li>🌐 Multi-currency support</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Budget Summary 📈</h2>
+<p>
+  <strong>Total Income:</strong> 0 (0.00 INR) <br>
+  <strong>Total Expenses:</strong> 0 (0.00 INR) <br>
+  <strong>Remaining Budget:</strong> 0 (0.00 INR)
+</p>
+
+<h2>Technologies Used 🛠️</h2>
+<ul>
+  <li>React.js</li>
+  <li>Tailwind CSS</li>
+</ul>
